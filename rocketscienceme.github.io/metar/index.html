@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>METAR &amp; TAF Cheat Sheet and Guide for Student Pilots</title>
+<meta name="description" content="Learn to read any METAR and TAF fast. 27-page visual guide, printable cheat card and 21 practice reports with answers. ICAO and US formats. Instant PDF.">
+<link rel="canonical" href="https://rocketscienceme.github.io/metar/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#fcfcfb">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rocket Science Made Easy">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://rocketscienceme.github.io/metar/">
+<meta property="og:title" content="METAR &amp; TAF Made Easy: the visual guide and cheat card">
+<meta property="og:description" content="Every group decoded, ICAO and US side by side, 21 practice reports with answers, plus a printable 2-page cheat card.">
+<meta property="og:image" content="https://rocketscienceme.github.io/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="METAR &amp; TAF Made Easy: a colour-coded METAR report split into its groups, with the guide title.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="METAR &amp; TAF Made Easy: the visual guide and cheat card">
+<meta name="twitter:description" content="Every group decoded, ICAO and US side by side, 21 practice reports with answers, plus a printable 2-page cheat card.">
+<meta name="twitter:image" content="https://rocketscienceme.github.io/assets/img/og-image.png">
+<meta name="twitter:image:alt" content="METAR &amp; TAF Made Easy: a colour-coded METAR report split into its groups, with the guide title.">
+
+<script>document.documentElement.classList.add('js')</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://rocketscienceme.github.io/#org",
+      "name": "Rocket Science Made Easy",
+      "url": "https://rocketscienceme.github.io/",
+      "logo": "https://rocketscienceme.github.io/assets/img/apple-touch-icon.png",
+      "sameAs": ["{{BLOG_URL}}", "{{INSTAGRAM_URL}}", "{{TIKTOK_URL}}"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://rocketscienceme.github.io/#website",
+      "url": "https://rocketscienceme.github.io/",
+      "name": "Rocket Science Made Easy",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://rocketscienceme.github.io/#org" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rocketscienceme.github.io/metar/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Rocket Science Made Easy", "item": "https://rocketscienceme.github.io/" },
+        { "@type": "ListItem", "position": 2, "name": "METAR & TAF Made Easy", "item": "https://rocketscienceme.github.io/metar/" }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://rocketscienceme.github.io/metar/#product",
+      "name": "METAR & TAF Made Easy",
+      "description": "A 27-page visual guide and a 2-page printable cheat card to learn to read METAR and TAF weather reports. ICAO and US formats side by side, 21 practice reports with answers. Two PDF files, English, Edition 1 (November 2026). Study aid for education and simulation only.",
+      "image": [
+        "https://rocketscienceme.github.io/assets/img/preview/01-cover-900.webp",
+        "https://rocketscienceme.github.io/assets/img/preview/07-cheatcard-metar-900.webp",
+        "https://rocketscienceme.github.io/assets/img/og-image.png"
+      ],
+      "brand": { "@type": "Brand", "name": "Rocket Science Made Easy" },
+      "url": "https://rocketscienceme.github.io/metar/",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://rocketscienceme.github.io/metar/",
+        "price": "{{PRICE}}",
+        "priceCurrency": "{{CURRENCY}}",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": { "@id": "https://rocketscienceme.github.io/#org" }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rocketscienceme.github.io/metar/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "What do I get exactly?", "acceptedAnswer": { "@type": "Answer", "text": "Two PDF files: the 27-page guide and the 2-page printable cheat card." } },
+        { "@type": "Question", "name": "How do I get it after paying?", "acceptedAnswer": { "@type": "Answer", "text": "Checkout is on Whop. After payment you get access to your download right away. {{DELIVERY_DETAILS}}" } },
+        { "@type": "Question", "name": "Is it for EASA/ICAO or for the FAA?", "acceptedAnswer": { "@type": "Answer", "text": "Both. The guide teaches the international (ICAO) format used in most of the world and the US (FAA) format, and shows the differences side by side. It also notes how Canadian reports differ." } },
+        { "@type": "Question", "name": "Can I print it?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The cheat card is laid out for A4 (on US Letter, print with \"fit to page\"), and the guide prints well in colour." } },
+        { "@type": "Question", "name": "Can I read it on my phone?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. It is a standard PDF and it works on phones, tablets and computers." } },
+        { "@type": "Question", "name": "Is it good for exams?", "acceptedAnswer": { "@type": "Answer", "text": "It teaches the METAR and TAF decoding skills that weather exams are built on, but exams and rules differ by country. Check what your authority requires. It is a study aid, not an official syllabus." } },
+        { "@type": "Question", "name": "Does it include live weather?", "acceptedAnswer": { "@type": "Answer", "text": "No. It teaches you to read reports. The last chapter lists where to find real ones." } },
+        { "@type": "Question", "name": "Is it for real flight planning?", "acceptedAnswer": { "@type": "Answer", "text": "No. It is for education and simulation only. Always use official, current sources and your operator's procedures." } },
+        { "@type": "Question", "name": "Will it be updated?", "acceptedAnswer": { "@type": "Answer", "text": "{{UPDATE_POLICY}}" } },
+        { "@type": "Question", "name": "How are taxes and VAT handled?", "acceptedAnswer": { "@type": "Answer", "text": "Whop is the merchant of record and handles payment, VAT and delivery at checkout." } },
+        { "@type": "Question", "name": "Can I get a refund?", "acceptedAnswer": { "@type": "Answer", "text": "{{REFUND_POLICY_TEXT}}" } }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Rocket Science Made Easy, home">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0b0b0b"/><path d="M14 40 L46 18 L40 30 L50 34 L18 46 L24 36 Z" fill="#fcfcfb"/><rect x="12" y="50" width="40" height="4" rx="2" fill="#eb6834"/></svg>
+      <span>Rocket Science Made Easy</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#inside">What's inside</a>
+      <a href="#sample">Sample</a>
+      <a href="#faq">FAQ</a>
+      <a href="{{BLOG_URL}}">Blog</a>
+    </nav>
+    <a class="btn btn-sm" href="{{WHOP_CHECKOUT_URL}}" rel="noopener">Get it</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- 1. HERO -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">METAR &amp; TAF Made Easy · Edition 1</p>
+      <h1 id="hero-title">Read any METAR and TAF in seconds</h1>
+      <p class="sub">Stop staring at</p>
+      <code class="metar-inline"><span>LIMC</span> <span>241320Z</span> <span>17014G26KT</span> <span>140V210</span> <span>7000</span> <span>-RA</span> <span>SCT015</span> <span>BKN040</span> <span>14/12</span> <span>Q1006</span></code>
+      <p class="sub">This 27-page visual guide and printable cheat card teach you to decode airport weather the way pilots do, in ICAO and US format.</p>
+      <p class="cta-row">
+        <a class="btn" href="{{WHOP_CHECKOUT_URL}}" rel="noopener"><span class="label">Get the guide</span> <span class="price">{{PRICE_DISPLAY}}</span></a>
+      </p>
+      <p class="micro"><span>Instant PDF download</span> · <span>Secure checkout by Whop</span> · <span>{{REFUND_DAYS}}-day refund</span></p>
+      <ul class="chips" aria-label="Highlights">
+        <li>ICAO + US formats</li>
+        <li>21 practice reports with answers</li>
+        <li>Printable cheat card</li>
+      </ul>
+    </div>
+    <div class="mockup">
+      <div class="paper card">
+        <img src="/assets/img/preview/07-cheatcard-metar-450.webp" width="450" height="636" alt="Page 1 of the printable cheat card: the METAR groups in a colour-coded table, with flight categories." decoding="async">
+      </div>
+      <div class="paper cover">
+        <img src="/assets/img/preview/01-cover-450.webp" srcset="/assets/img/preview/01-cover-450.webp 450w, /assets/img/preview/01-cover-900.webp 900w" sizes="(min-width: 900px) 300px, 62vw" width="450" height="641" alt="Cover of the METAR &amp; TAF Made Easy guide: an aircraft wing above the clouds and a colour-coded METAR." fetchpriority="high" decoding="async">
+      </div>
+      <span class="tag">27-page guide + 2-page cheat card (PDF)</span>
+    </div>
+  </div>
+</section>
+
+<!-- 2. PROBLEM -->
+<section class="alt" aria-labelledby="problem-title">
+  <div class="wrap narrow">
+    <p class="eyebrow">The problem</p>
+    <h2 id="problem-title">METARs and TAFs look like a secret code</h2>
+    <p class="lead">Everyone is told to "just learn them", but most guides are either a wall of tables or a short list that stops at "wind, visibility, clouds".</p>
+    <p>So you memorise a few groups, and then it breaks:</p>
+    <ul class="problem-list">
+      <li>A report has <code>VRB</code>, <code>CAVOK</code>, <code>VV002</code> or <code>Q1013</code> and you are not sure what it means.</li>
+      <li>A TAF has <code>BECMG</code>, <code>TEMPO</code> and <code>PROB30</code> and you cannot tell which one replaces the weather and which one does not.</li>
+      <li>You read a US report one day and a European one the next, and the units are different.</li>
+      <li>You freeze in an exam, a simulator briefing or a flying lesson, when you just need to read the weather and move on.</li>
+    </ul>
+    <p class="callout">The code is not hard. It has a fixed order and a small set of building blocks. It just needs to be explained once, clearly, with the exceptions included.</p>
+  </div>
+</section>
+
+<!-- 3/4. WHAT YOU GET -->
+<section id="inside" aria-labelledby="inside-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">What you get</p>
+      <h2 id="inside-title">A visual METAR and TAF guide, plus a cheat sheet to print</h2>
+      <p class="solution"><strong>METAR &amp; TAF Made Easy</strong> is a clean, visual guide that takes you from "what is this?" to reading real reports in one evening. Every group is colour-coded, every rule is explained in plain English, and every concept is followed by a worked example. When you are done, you practise on 21 reports and check your answers.</p>
+    </div>
+
+    <h3>Two PDFs, delivered instantly</h3>
+    <div class="pdfs">
+      <div class="pdf">
+        <img src="/assets/img/preview/01-cover-450.webp" width="450" height="641" alt="" loading="lazy" decoding="async">
+        <div>
+          <span class="num">PDF 1</span>
+          <h3>The guide: METAR &amp; TAF Made Easy</h3>
+          <p>27 pages, A4, full colour, 12 chapters.</p>
+        </div>
+      </div>
+      <div class="pdf">
+        <img src="/assets/img/preview/07-cheatcard-metar-450.webp" width="450" height="636" alt="" loading="lazy" decoding="async">
+        <div>
+          <span class="num">PDF 2</span>
+          <h3>The cheat card</h3>
+          <p>2 pages, made for printing: the METAR on one side and the TAF on the other, with conversions and crosswind.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 id="contents-title">What is inside the guide</h3>
+    <ol class="contents" aria-labelledby="contents-title">
+      <li><h3>The big picture</h3><p>METAR, SPECI, TREND and TAF: what each one is, and the fixed order every report follows.</p></li>
+      <li><h3>The METAR, group by group</h3><p>Wind (including gusts, variable winds and <code>VRB</code>), visibility and <code>CAVOK</code>, RVR, present weather codes, clouds and the ceiling, temperature and dew point, QNH and altimeter, recent weather, wind shear, runway state group, trends and US remarks.</p></li>
+      <li><h3>Two reports fully decoded</h3><p>One in ICAO format and one in US format, with what each means for a pilot.</p></li>
+      <li><h3>The TAF</h3><p>Anatomy, validity and issue times, what is in a TAF and what is not, and the change groups <code>FM</code>, <code>BECMG</code>, <code>TEMPO</code> and <code>PROB30/40</code>, with a timeline diagram and a 7-step method to read any TAF.</p></li>
+      <li><h3>ICAO vs US at a glance</h3><p>One 17-row table of the differences: visibility units, pressure format, wind averaging, <code>VRB</code> rules, RVR, remarks, trend and TAF groups.</p></li>
+      <li><h3>Flight categories</h3><p>VFR, MVFR, IFR and LIFR, with a visual chart and the "worse of the two wins" rule.</p></li>
+      <li><h3>Conversions and crosswind</h3><p>Knots, metres, statute miles, hPa and inHg, with quick tricks, plus a crosswind and headwind table.</p></li>
+      <li><h3>The 14 most common mistakes</h3><p>The errors that trip up almost every beginner, and how to avoid them.</p></li>
+      <li><h3>The 60-second briefing</h3><p>An 8-question checklist for reading a METAR and TAF together.</p></li>
+      <li><h3>21 practice reports with answers</h3><p>9 ICAO METARs, 6 US and Canadian METARs and 6 TAFs, grouped in three levels, each with a full decoded answer.</p></li>
+      <li><h3>Glossary</h3><p>75 codes explained in plain English.</p></li>
+      <li><h3>Sources and limits</h3><p>The official sources behind the guide, where to get real reports, and its limits.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 5. LOOK INSIDE -->
+<section class="alt" id="look-inside" aria-labelledby="look-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Look inside</p>
+      <h2 id="look-title">Real pages from the guide and the cheat card</h2>
+      <p>No mock-ups of pages that do not exist. Tap any page to see it larger.</p>
+    </div>
+    <ul class="gallery">
+      <li><a href="/assets/img/preview/02-metar-anatomy-900.webp" data-w="900" data-h="1273"><figure>
+        <div class="frame"><img src="/assets/img/preview/02-metar-anatomy-450.webp" width="450" height="636" loading="lazy" decoding="async" alt="Chapter 1 page: the four products METAR, SPECI, TREND and TAF, the fixed order of groups and the anatomy of a colour-coded METAR."></div>
+        <figcaption>Anatomy of a METAR<span>The fixed order, in colour</span></figcaption></figure></a></li>
+      <li><a href="/assets/img/preview/03-taf-timeline-900.webp" data-w="900" data-h="1273"><figure>
+        <div class="frame"><img src="/assets/img/preview/03-taf-timeline-450.webp" width="450" height="636" loading="lazy" decoding="async" alt="TAF page: table of change groups FM, BECMG, TEMPO and PROB, a TAF drawn on a timeline, and the timeline reading method."></div>
+        <figcaption>The TAF timeline<span>FM, BECMG, TEMPO and PROB as a picture</span></figcaption></figure></a></li>
+      <li><a href="/assets/img/preview/04-icao-vs-us-900.webp" data-w="900" data-h="1273"><figure>
+        <div class="frame"><img src="/assets/img/preview/04-icao-vs-us-450.webp" width="450" height="636" loading="lazy" decoding="async" alt="Chapter 5 page: ICAO vs US at a glance, a 17-row comparison table of METAR and TAF differences."></div>
+        <figcaption>ICAO vs US table<span>One 17-row comparison table</span></figcaption></figure></a></li>
+      <li><a href="/assets/img/preview/05-flight-categories-900.webp" data-w="900" data-h="1273"><figure>
+        <div class="frame"><img src="/assets/img/preview/05-flight-categories-450.webp" width="450" height="636" loading="lazy" decoding="async" alt="Chapter 6 page: flight categories VFR, MVFR, IFR and LIFR as a table and a colour chart of ceiling against visibility."></div>
+        <figcaption>Flight categories chart<span>VFR, MVFR, IFR, LIFR</span></figcaption></figure></a></li>
+      <li><a href="/assets/img/preview/06-practice-reports-900.webp" data-w="900" data-h="1273"><figure>
+        <div class="frame"><img src="/assets/img/preview/06-practice-reports-450.webp" width="450" height="636" loading="lazy" decoding="async" alt="Chapter 10 page: practice METARs labelled warm-up and core, each with a focus question."></div>
+        <figcaption>Practice reports<span>21 reports, three levels, full answers</span></figcaption></figure></a></li>
+      <li><a href="/assets/img/preview/07-cheatcard-metar-900.webp" data-w="900" data-h="1273"><figure>
+        <div class="frame"><img src="/assets/img/preview/07-cheatcard-metar-450.webp" width="450" height="636" loading="lazy" decoding="async" alt="Cheat card page 1: every METAR group with how to read it, flight categories and ICAO vs US wind rules."></div>
+        <figcaption>Cheat card, page 1<span>The METAR</span></figcaption></figure></a></li>
+      <li><a href="/assets/img/preview/08-cheatcard-taf-900.webp" data-w="900" data-h="1273"><figure>
+        <div class="frame"><img src="/assets/img/preview/08-cheatcard-taf-450.webp" width="450" height="636" loading="lazy" decoding="async" alt="Cheat card page 2: TAF elements, change groups, timeline method, conversions and crosswind."></div>
+        <figcaption>Cheat card, page 2<span>TAF, conversions and crosswind</span></figcaption></figure></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 6. FREE SAMPLE -->
+<section id="sample" aria-labelledby="sample-title">
+  <div class="wrap narrow">
+    <div class="section-head reveal">
+      <p class="eyebrow">Free sample</p>
+      <h2 id="sample-title">How to read a METAR: one report, decoded</h2>
+      <p>This is how the guide works. Each group of the report has its own colour, and each one is explained in plain English.</p>
+    </div>
+    <article class="sample-card" aria-labelledby="sample-title">
+      <p class="badge">Invented example. Not a real observation.</p>
+      <p class="metar-strip"><span class="sr-only">METAR LIMC 241320Z 17014G26KT 140V210 7000 -RA SCT015 BKN040 14/12 Q1006 TEMPO 3000 RA BKN010</span>
+        <span class="g" aria-hidden="true">METAR</span>
+        <span class="g" aria-hidden="true">LIMC</span>
+        <span class="g" aria-hidden="true">241320Z</span>
+        <span class="g g-wind" aria-hidden="true">17014G26KT</span>
+        <span class="g g-wind" aria-hidden="true">140V210</span>
+        <span class="g g-vis" aria-hidden="true">7000</span>
+        <span class="g g-wx" aria-hidden="true">-RA</span>
+        <span class="g g-cld" aria-hidden="true">SCT015</span>
+        <span class="g g-cld" aria-hidden="true">BKN040</span>
+        <span class="g g-tmp" aria-hidden="true">14/12</span>
+        <span class="g g-prs" aria-hidden="true">Q1006</span>
+        <span class="g g-trend" aria-hidden="true">TEMPO 3000 RA BKN010</span>
+      </p>
+      <table class="decode">
+        <caption class="sr-only">The METAR LIMC 241320Z decoded group by group</caption>
+        <thead><tr><th scope="col">Group</th><th scope="col">Meaning</th></tr></thead>
+        <tbody>
+          <tr><th scope="row"><span class="g">LIMC</span></th><td>Milan Malpensa, Italy</td></tr>
+          <tr><th scope="row"><span class="g">241320Z</span></th><td>Day 24, 13:20 UTC</td></tr>
+          <tr><th scope="row"><span class="g g-wind">17014G26KT</span></th><td>Wind from 170° true at 14 kt, gusts 26 kt</td></tr>
+          <tr><th scope="row"><span class="g g-wind">140V210</span></th><td>Direction varies between 140° and 210°</td></tr>
+          <tr><th scope="row"><span class="g g-vis">7000</span></th><td>Visibility 7 km</td></tr>
+          <tr><th scope="row"><span class="g g-wx">-RA</span></th><td>Light rain</td></tr>
+          <tr><th scope="row"><span class="g g-cld">SCT015 BKN040</span></th><td>Scattered at 1,500 ft, broken at 4,000 ft</td></tr>
+          <tr><th scope="row"><span class="g g-tmp">14/12</span></th><td>Temperature 14 °C, dew point 12 °C</td></tr>
+          <tr><th scope="row"><span class="g g-prs">Q1006</span></th><td>QNH 1006 hPa</td></tr>
+          <tr><th scope="row"><span class="g g-trend">TEMPO 3000 RA BKN010</span></th><td>At times 3 km in moderate rain with a 1,000 ft ceiling</td></tr>
+        </tbody>
+      </table>
+      <div class="meaning">
+        <p><strong>What it means:</strong> a gusty southerly wind (gusts 12 kt above the mean). The <strong>ceiling is 4,000 ft</strong> (the scattered layer does not count). Visibility about 4.3 SM, so the category is <span class="cat cat-mvfr">MVFR</span>. The TEMPO says it can drop to <span class="cat cat-ifr">IFR</span> for short spells.</p>
+      </div>
+      <p class="mt-2 mb-0">This is one of 21 examples. <a href="{{WHOP_CHECKOUT_URL}}" rel="noopener">Get the full guide.</a></p>
+    </article>
+  </div>
+</section>
+
+<!-- 7. WHY IT IS DIFFERENT -->
+<section class="tint" aria-labelledby="why-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Why it is different</p>
+      <h2 id="why-title">Built to make the code click</h2>
+    </div>
+    <div class="benefits">
+      <div class="benefit">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="5" height="14" rx="1.5"/><rect x="10" y="5" width="4" height="14" rx="1.5"/><rect x="16" y="5" width="5" height="14" rx="1.5"/></svg></div>
+        <h3>See the structure, not just a list</h3>
+        <p>Each group has its own colour in every example, so your eye learns where to look before you learn what to read.</p>
+      </div>
+      <div class="benefit">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v18M4 7h5M4 12h5M4 17h5M15 7h5M15 12h5M15 17h5"/></svg></div>
+        <h3>ICAO and US, side by side</h3>
+        <p>Most guides teach one format. Real life gives you both. This guide shows the differences in one place so a European or American report never catches you off guard.</p>
+      </div>
+      <div class="benefit">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 17h18M3 17V7M7 17v-6h6v6M13 9h6v8"/></svg></div>
+        <h3>A TAF method, not just a table</h3>
+        <p>The timeline method turns <code>FM</code>, <code>BECMG</code>, <code>TEMPO</code> and <code>PROB</code> into a picture you can draw in 30 seconds.</p>
+        <blockquote>FM replaces everything. BECMG replaces what it mentions. TEMPO and PROB are possible visits.</blockquote>
+      </div>
+      <div class="benefit">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg></div>
+        <h3>Practice built in</h3>
+        <p>21 reports written exactly like real ones, from warm-up to challenge level, each with a complete decoded answer, so you can test yourself instead of just reading.</p>
+      </div>
+      <div class="benefit">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>Checked, not guessed</h3>
+        <p>The rules come from the WMO guide to aeronautical codes (WMO-No. 782, 2025 edition), the FAA METAR/TAF key and AIM, and the Aviation Weather Center. Every practice report was also run through two independent open-source parsers, and the wind, temperature, pressure and flight category values match.</p>
+      </div>
+      <div class="benefit">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg></div>
+        <h3>Made to be used</h3>
+        <p>Print the 2-page cheat card and keep it next to your screen, in your flight bag or in your notebook.</p>
+      </div>
+    </div>
+
+    <h2 id="compare-title" class="h2-sm">Why this one</h2>
+    <div class="table-wrap">
+      <table class="compare" aria-labelledby="compare-title">
+        <thead>
+          <tr><td></td><th scope="col">Scattered websites</th><th scope="col">Dense manuals</th><th scope="col" class="us">METAR &amp; TAF Made Easy</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Clear order to learn in</th><td data-label="Scattered websites">Rarely</td><td data-label="Dense manuals">Yes, but heavy</td><td class="us" data-label="This guide">Yes, step by step</td></tr>
+          <tr><th scope="row">ICAO and US in one place</th><td data-label="Scattered websites">Rarely</td><td data-label="Dense manuals">Often separate</td><td class="us" data-label="This guide">Side by side</td></tr>
+          <tr><th scope="row">Visual examples</th><td data-label="Scattered websites">Some</td><td data-label="Dense manuals">Few</td><td class="us" data-label="This guide">Colour-coded throughout</td></tr>
+          <tr><th scope="row">Practice with answers</th><td data-label="Scattered websites">Rarely</td><td data-label="Dense manuals">Rarely</td><td class="us" data-label="This guide">21 reports, full answers</td></tr>
+          <tr><th scope="row">Printable quick card</th><td data-label="Scattered websites">Rarely</td><td data-label="Dense manuals">No</td><td class="us" data-label="This guide">2-page cheat card</td></tr>
+          <tr><th scope="row">Time to start reading</th><td data-label="Scattered websites">Hours of searching</td><td data-label="Dense manuals">Days</td><td class="us" data-label="This guide">One evening</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 8. WHO IT'S FOR -->
+<section aria-labelledby="for-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Who it is for</p>
+      <h2 id="for-title">A student pilot weather cheat sheet, and more</h2>
+    </div>
+    <div class="audience">
+      <div class="aud aud-yes">
+        <h3>It is for you if you are:</h3>
+        <ul>
+          <li>a student pilot or a future student pilot</li>
+          <li>an aviation student or preparing for a weather exam</li>
+          <li>a flight simulator pilot (MSFS, X-Plane, VATSIM, IVAO)</li>
+          <li>an aviation enthusiast who wants to finally understand those codes</li>
+          <li>cabin crew, ATC trainees or aviation staff who want a clear refresher</li>
+        </ul>
+      </div>
+      <div class="aud aud-no">
+        <h3>It is not for you if you want:</h3>
+        <ul>
+          <li>a replacement for formal training or an instructor</li>
+          <li>a source of live weather data</li>
+          <li>anything to use for real flight planning or operational decisions</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. AUTHOR -->
+<section class="alt" id="author" aria-labelledby="author-title">
+  <div class="wrap narrow">
+    <div class="author">
+      <div class="avatar" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M14 40 L46 18 L40 30 L50 34 L18 46 L24 36 Z" fill="#fcfcfb"/><rect x="12" y="50" width="40" height="4" rx="2" fill="#eb6834"/></svg></div>
+      <div>
+        <p class="eyebrow">About the author</p>
+        <h2 id="author-title">Who made this</h2>
+        <p>{{AUTHOR_BIO}}</p>
+        <div class="links-row">
+          <a href="{{BLOG_URL}}">Read more on the Rocket Science Made Easy blog</a>
+          <a href="{{BLOG_POST_URL_1}}">How to Read a METAR in 5 Minutes</a>
+        </div>
+        <h3 class="mt-2">More free reading on the blog</h3>
+        <ul>
+          <li><a href="{{BLOG_POST_URL_2}}">{{BLOG_POST_TITLE_2}}</a></li>
+          <li><a href="{{BLOG_POST_URL_3}}">{{BLOG_POST_TITLE_3}}</a></li>
+          <li><a href="{{BLOG_POST_URL_4}}">{{BLOG_POST_TITLE_4}}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. GUARANTEE -->
+<section aria-labelledby="refund-title">
+  <div class="wrap narrow">
+    <div class="guarantee">
+      <div class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+      <div>
+        <h2 id="refund-title">A simple refund promise</h2>
+        <p>{{REFUND_POLICY_TEXT}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 11. FAQ -->
+<section class="alt" id="faq" aria-labelledby="faq-title">
+  <div class="wrap narrow">
+    <div class="section-head reveal">
+      <p class="eyebrow">FAQ</p>
+      <h2 id="faq-title">Questions, answered</h2>
+    </div>
+    <div class="faq">
+      <details><summary>What do I get exactly?</summary><div class="answer"><p>Two PDF files: the 27-page guide and the 2-page printable cheat card.</p></div></details>
+      <details><summary>How do I get it after paying?</summary><div class="answer"><p>Checkout is on Whop. After payment you get access to your download right away. {{DELIVERY_DETAILS}}</p></div></details>
+      <details><summary>Is it for EASA/ICAO or for the FAA?</summary><div class="answer"><p>Both. The guide teaches the international (ICAO) format used in most of the world and the US (FAA) format, and shows the differences side by side. It also notes how Canadian reports differ.</p></div></details>
+      <details><summary>Can I print it?</summary><div class="answer"><p>Yes. The cheat card is laid out for A4 (on US Letter, print with "fit to page"), and the guide prints well in colour.</p></div></details>
+      <details><summary>Can I read it on my phone?</summary><div class="answer"><p>Yes. It is a standard PDF and it works on phones, tablets and computers.</p></div></details>
+      <details><summary>Is it good for exams?</summary><div class="answer"><p>It teaches the METAR and TAF decoding skills that weather exams are built on, but exams and rules differ by country. Check what your authority requires. It is a study aid, not an official syllabus.</p></div></details>
+      <details><summary>Does it include live weather?</summary><div class="answer"><p>No. It teaches you to read reports. The last chapter lists where to find real ones.</p></div></details>
+      <details><summary>Is it for real flight planning?</summary><div class="answer"><p>No. It is for education and simulation only. Always use official, current sources and your operator's procedures.</p></div></details>
+      <details><summary>Will it be updated?</summary><div class="answer"><p>{{UPDATE_POLICY}}</p></div></details>
+      <details><summary>How are taxes and VAT handled?</summary><div class="answer"><p>Whop is the merchant of record and handles payment, VAT and delivery at checkout.</p></div></details>
+      <details><summary>Can I get a refund?</summary><div class="answer"><p>{{REFUND_POLICY_TEXT}}</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- 13. TESTIMONIALS: hidden until real reviews exist. Do not add invented reviews.
+     To publish: replace this whole comment with a <section> containing {{TESTIMONIALS}} (real, verifiable reviews only),
+     placed before the final CTA. Do NOT add aggregateRating/review to the JSON-LD unless the reviews are real. -->
+
+<!-- 12. FINAL CTA -->
+<section class="final" id="get" aria-labelledby="final-title">
+  <div class="wrap narrow">
+    <h2 id="final-title">Stop guessing. Start reading.</h2>
+    <p>In one evening you can go from "what does BECMG mean?" to decoding real reports with confidence. 27 pages, 21 practice reports and a printable cheat card.</p>
+    <p class="mt-2"><a class="btn" href="{{WHOP_CHECKOUT_URL}}" rel="noopener"><span class="label">Get the guide</span> <span class="price">{{PRICE_DISPLAY}}</span></a></p>
+    <p class="micro"><span>Instant PDF download</span> · <span>Secure checkout by Whop</span> · <span>{{REFUND_DAYS}}-day refund</span></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p><strong class="ink">Rocket Science Made Easy</strong><br>METAR &amp; TAF Made Easy, Edition 1, November 2026.</p>
+        <p class="small">Sold by {{PROVIDER_IDENTIFICATION}}. Payment, VAT and delivery are handled by Whop as merchant of record. Contact: <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a></p>
+      </div>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="/privacy/">Privacy</a></li>
+          <li><a href="/terms/">Terms and refunds</a></li>
+          <li><a href="{{BLOG_URL}}">Blog</a></li>
+          <li><a href="{{INSTAGRAM_URL}}" rel="noopener">Instagram</a></li>
+          <li><a href="{{TIKTOK_URL}}" rel="noopener">TikTok</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="disclaimer">Study aid only. Not for operational flight planning. Always use official, current sources. Not affiliated with or endorsed by ICAO, EASA, the FAA or any aviation authority.</p>
+  </div>
+</footer>
+
+<div class="sticky-cta" aria-hidden="true">
+  <p class="t"><strong>METAR &amp; TAF Made Easy</strong>Guide + cheat card · {{PRICE_DISPLAY}}</p>
+  <a class="btn" href="{{WHOP_CHECKOUT_URL}}" rel="noopener" tabindex="-1">Get the guide</a>
+</div>
+
+<dialog class="lightbox" aria-label="Page preview">
+  <button class="close" type="button" aria-label="Close preview">×</button>
+  <img src="data:," alt="" width="900" height="1273">
+  <p></p>
+</dialog>
+
+<script>
+(function () {
+  var d = document, b = d.body;
+  var header = d.querySelector('.site-header');
+  var bar = d.querySelector('.sticky-cta');
+  var barLink = bar.querySelector('a');
+  var heroVisible = true, stops = 0;
+
+  function setBar() {
+    var show = !heroVisible && stops === 0;
+    bar.classList.toggle('show', show);
+    bar.setAttribute('aria-hidden', show ? 'false' : 'true');
+    barLink.tabIndex = show ? 0 : -1;
+  }
+
+  if ('IntersectionObserver' in window) {
+    b.classList.add('has-sticky');
+    new IntersectionObserver(function (e) {
+      heroVisible = e[0].isIntersecting;
+      header.classList.toggle('scrolled', !heroVisible || e[0].intersectionRatio < 1);
+      setBar();
+    }, { threshold: [0, 1] }).observe(d.getElementById('top'));
+
+    // Hide the bar while the final CTA or the footer is on screen
+    var seen = new Set();
+    var so = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { seen.add(e.target); } else { seen.delete(e.target); } });
+      stops = seen.size; setBar();
+    });
+    so.observe(d.getElementById('get'));
+    so.observe(d.querySelector('.site-footer'));
+
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    d.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+  } else {
+    d.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
+  }
+  // Lightbox for the gallery (links still open the image if this fails)
+  var dlg = d.querySelector('dialog.lightbox');
+  if (dlg && typeof dlg.showModal === 'function') {
+    var img = dlg.querySelector('img'), cap = dlg.querySelector('p');
+    d.querySelectorAll('.gallery a').forEach(function (a) {
+      a.addEventListener('click', function (ev) {
+        ev.preventDefault();
+        var thumb = a.querySelector('img');
+        img.src = a.getAttribute('href');
+        img.alt = thumb.alt;
+        cap.textContent = a.querySelector('figcaption').firstChild.textContent;
+        dlg.showModal();
+      });
+    });
+    dlg.querySelector('.close').addEventListener('click', function () { dlg.close(); });
+    dlg.addEventListener('click', function (ev) { if (ev.target === dlg) dlg.close(); });
+  }
+})();
+</script>
+</body>
+</html>
